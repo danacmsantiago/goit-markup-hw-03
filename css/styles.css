@@ -123,6 +123,7 @@ body {
   padding: 24px 120px 24px 120px;
   justify-content: space-between;
   border-bottom: 1px solid var(--cornflower);
+  width: 1158px;
 }
 
 .nav {
@@ -135,7 +136,7 @@ body {
 }
 
 .nav-menu:last-child {
-  margin-right: 300px;
+  margin-right: auto;
 }
 
 .contacts-menu.list {
