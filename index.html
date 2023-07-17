@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Go IT Homework 2 - Index</title>
 
-    <!--CSS-->
+    <!--CSS stylesheet-->
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <!--modern normalize-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!--fonts-->
     <link
@@ -16,8 +25,8 @@
   </head>
   <body>
     <!-- header -->
-    <header class="page-header">
-      <nav>
+    <header class="page-header container">
+      <nav class="nav">
         <a href="./index.html" class="logo-link">
           <span class="logo">WEB</span><span class="studio">STUDIO</span>
         </a>
@@ -49,7 +58,7 @@
     <!-- main -->
     <main>
       <!-- section 1 - hero section -->
-      <section class="hero bg-hero">
+      <section class="hero bg-hero section">
         <h1 class="hero-title">
           Effective Solutions<br />
           for Your Business
@@ -69,6 +78,7 @@
                 solution.
               </p>
             </li>
+
             <li>
               <h3 class="title">Punctuality</h3>
               <p class="description">
@@ -77,6 +87,7 @@
                 within the shortest possible time.
               </p>
             </li>
+
             <li>
               <h3 class="title">Diligence</h3>
               <p class="description">
@@ -85,6 +96,7 @@
                 opportunities and minimize risk.
               </p>
             </li>
+
             <li>
               <h3 class="title">Technologies</h3>
               <p class="description">
@@ -102,27 +114,33 @@
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="what-we-do list">
-            <li>
-              <img
-                src="./images/desktop-monitor.jpg"
-                width="360"
-                alt="desktop monitor"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/phone-screen.jpg"
-                width="360"
-                alt="phone screen"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/laptop-phone.jpg"
-                width="360"
-                alt="laptop and phone"
-              />
-            </li>
+            <div class="what-we-do card">
+              <li>
+                <img
+                  src="./images/desktop-monitor.jpg"
+                  width="360"
+                  alt="desktop monitor"
+                />
+              </li>
+            </div>
+            <div class="what-we-do card">
+              <li>
+                <img
+                  src="./images/phone-screen.jpg"
+                  width="360"
+                  alt="phone screen"
+                />
+              </li>
+            </div>
+            <div class="what-we-do card">
+              <li>
+                <img
+                  src="./images/laptop-phone.jpg"
+                  width="360"
+                  alt="laptop and phone"
+                />
+              </li>
+            </div>
           </ul>
         </div>
       </section>
@@ -132,39 +150,47 @@
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <li>
-              <img
-                src="./images/mark-guerrero.jpg"
-                width="264"
-                alt="Mark Guerrero"
-              />
+            <div class="team-card">
+              <li>
+                <img
+                  src="./images/mark-guerrero.jpg"
+                  width="264"
+                  alt="Mark Guerrero"
+                />
 
-              <h3 class="name">Mark Guerrero</h3>
-              <p class="position">Product Designer</p>
-            </li>
-            <li>
-              <img src="./images/tom-ford.jpg" width="264" alt="Tom Ford" />
-              <h3 class="name">Tom Ford</h3>
-              <p class="position">Frontend Developer</p>
-            </li>
-            <li>
-              <img
-                src="./images/camila-garcia.jpg"
-                width="264"
-                alt="Camila Garcia"
-              />
-              <h3 class="name">Camila Garcia</h3>
-              <p class="position">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="./images/daniel-wilson.jpg"
-                width="264"
-                alt="Daniel Wilson"
-              />
-              <h3 class="name">Daniel Wilson</h3>
-              <p class="position">UI Designer</p>
-            </li>
+                <h3 class="name">Mark Guerrero</h3>
+                <p class="position">Product Designer</p>
+              </li>
+            </div>
+            <div class="team-card">
+              <li>
+                <img src="./images/tom-ford.jpg" width="264" alt="Tom Ford" />
+                <h3 class="name">Tom Ford</h3>
+                <p class="position">Frontend Developer</p>
+              </li>
+            </div>
+            <div class="team-card">
+              <li>
+                <img
+                  src="./images/camila-garcia.jpg"
+                  width="264"
+                  alt="Camila Garcia"
+                />
+                <h3 class="name">Camila Garcia</h3>
+                <p class="position">Marketing</p>
+              </li>
+            </div>
+            <div class="team-card">
+              <li>
+                <img
+                  src="./images/daniel-wilson.jpg"
+                  width="264"
+                  alt="Daniel Wilson"
+                />
+                <h3 class="name">Daniel Wilson</h3>
+                <p class="position">UI Designer</p>
+              </li>
+            </div>
           </ul>
         </div>
       </section>
@@ -172,7 +198,7 @@
 
     <!-- footer -->
     <footer class="page-footer bg-footer">
-      <div>
+      <div class="container">
         <a href="./index.html" class="logo-link">
           <span class="logo">WEB</span><span class="studio-footer">STUDIO</span>
         </a>
