@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Go IT Homework 2 - Index</title>
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com " />
+    <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin />
 
     <!--CSS stylesheet-->
     <link rel="stylesheet" href="./css/styles.css" />
@@ -25,52 +27,59 @@
   </head>
   <body>
     <!-- header -->
-    <header class="page-header container">
-      <nav class="nav">
-        <a href="./index.html" class="logo-link">
-          <span class="logo">WEB</span><span class="studio">STUDIO</span>
-        </a>
-        <ul class="nav-menu list">
-          <li>
-            <a href="./index.html" class="page current">Studio</a>
+    <header class="page-header">
+      <div class="container">
+        <nav class="navigation">
+          <a href="./index.html" class="logo-link">
+            <span class="logo">WEB</span><span class="studio">STUDIO</span>
+          </a>
+          <ul class="nav-menu list">
+            <li class="item">
+              <a href="./index.html" class="page current link">Studio</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="page link">Portfolio</a>
+            </li>
+            <li class="item">
+              <a href="#" class="page link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts-menu list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="./portfolio.html" class="page">Portfolio</a>
-          </li>
-          <li>
-            <a href="#" class="page">Contacts</a>
+          <li class="item">
+            <a href="tel:+110001111111" class="contact link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </nav>
-
-      <ul class="contacts-menu list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="item"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+110001111111" class="item">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <!-- main -->
     <main>
       <!-- section 1 - hero section -->
-      <section class="hero bg-hero section">
-        <h1 class="hero-title">
-          Effective Solutions<br />
-          for Your Business
-        </h1>
-        <button type="button" class="button primary">Order Service</button>
+      <section class="hero bg-hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Effective Solutions<br />
+            for Your Business
+          </h1>
+          <button type="button" class="button primary">Order Service</button>
+          </div>
+        </div>
       </section>
 
       <!-- section 2 - Benefits -->
       <section class="section">
         <div class="container">
           <ul class="benefits list">
-            <li>
+            <li class="item">
               <h3 class="title">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business<br />
@@ -79,7 +88,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title">Punctuality</h3>
               <p class="description">
                 Bring the key message to the<br />
@@ -88,7 +97,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title">Diligence</h3>
               <p class="description">
                 Research and confirm brands that<br />
@@ -97,7 +106,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title">Technologies</h3>
               <p class="description">
                 Design practice focused on digital<br />
@@ -110,37 +119,40 @@
       </section>
 
       <!-- section 3 -->
-      <section class="section">
+      <section class="section no-top-padding">
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="what-we-do list">
-            <div class="what-we-do card">
-              <li>
+            
+              <li class="item">
                 <img
                   src="./images/desktop-monitor.jpg"
                   width="360"
                   alt="desktop monitor"
+                  class="image"
                 />
               </li>
-            </div>
-            <div class="what-we-do card">
-              <li>
+            
+          
+              <li class="item">
                 <img
                   src="./images/phone-screen.jpg"
                   width="360"
                   alt="phone screen"
+                  class="image"
                 />
               </li>
-            </div>
-            <div class="what-we-do card">
-              <li>
+           
+            
+              <li class="item">
                 <img
                   src="./images/laptop-phone.jpg"
                   width="360"
                   alt="laptop and phone"
+                  class="image"
                 />
               </li>
-            </div>
+           
           </ul>
         </div>
       </section>
@@ -150,47 +162,46 @@
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <div class="team-card">
-              <li>
+          
+              <li class="item">
                 <img
                   src="./images/mark-guerrero.jpg"
                   width="264"
-                  alt="Mark Guerrero"
+                  alt="Mark Guerrero" class="image"
                 />
 
                 <h3 class="name">Mark Guerrero</h3>
                 <p class="position">Product Designer</p>
               </li>
-            </div>
-            <div class="team-card">
-              <li>
-                <img src="./images/tom-ford.jpg" width="264" alt="Tom Ford" />
+          
+              <li class="item">
+                <img src="./images/tom-ford.jpg" width="264" alt="Tom Ford"  class="image"/>
                 <h3 class="name">Tom Ford</h3>
                 <p class="position">Frontend Developer</p>
               </li>
-            </div>
-            <div class="team-card">
-              <li>
+            
+              <li class="item">
                 <img
                   src="./images/camila-garcia.jpg"
                   width="264"
-                  alt="Camila Garcia"
+                  alt="Camila Garcia" class="image"
                 />
                 <h3 class="name">Camila Garcia</h3>
                 <p class="position">Marketing</p>
               </li>
-            </div>
-            <div class="team-card">
-              <li>
+          
+           
+              <li class="item">
                 <img
                   src="./images/daniel-wilson.jpg"
                   width="264"
                   alt="Daniel Wilson"
+                  class="image"
                 />
                 <h3 class="name">Daniel Wilson</h3>
                 <p class="position">UI Designer</p>
               </li>
-            </div>
+            
           </ul>
         </div>
       </section>
@@ -199,7 +210,7 @@
     <!-- footer -->
     <footer class="page-footer bg-footer">
       <div class="container">
-        <a href="./index.html" class="logo-link">
+        <a href="./index.html" class="logo-link footer">
           <span class="logo">WEB</span><span class="studio-footer">STUDIO</span>
         </a>
 

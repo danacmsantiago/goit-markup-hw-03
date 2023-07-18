@@ -42,6 +42,10 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -101,9 +105,12 @@ body {
   color: var(--navyblue);
 }
 
+.page.link {
+  color: var(--navyblue);
+}
+
 .nav-menu .page {
   font-weight: 500;
-  color: var(--navyblue);
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -126,7 +133,7 @@ body {
   width: 1158px;
 }
 
-.nav {
+.navigation {
   display: flex;
   gap: 55px;
 }
@@ -136,11 +143,12 @@ body {
 }
 
 .nav-menu:last-child {
-  margin-right: auto;
+  margin-right: 300px;
 }
 
 .contacts-menu.list {
   display: flex;
+  flex-direction: flex-end;
 }
 
 .contacts-menu .item {
@@ -152,17 +160,16 @@ body {
   margin-left: 40px;
 }
 
-.bg-hero {
-  background-color: var(--navyblue);
-  text-align: center;
+.contact.link {
+  color: var(--slate);
 }
 
 /* Hero Section - Section 1 */
 
-/* .hero {
-  background: var(--navyblue);
+.bg-hero {
+  background-color: var(--navyblue);
   text-align: center;
-} */
+}
 
 .hero-title {
   font-size: 56px;
@@ -171,6 +178,10 @@ body {
   letter-spacing: 0.04em;
   color: var(--white);
   padding-bottom: 48px;
+}
+
+.hero {
+  padding: 188px;
 }
 
 /* Benefits - Section 2 */
@@ -202,7 +213,7 @@ body {
   justify-content: space-between;
 }
 
-.what-we-do.card {
+.what-we-do .item {
   border: 1px solid var(--cornflower);
 }
 
@@ -237,7 +248,7 @@ body {
   justify-content: space-between;
 }
 
-.team-card {
+.team .item {
   border: 1px solid var(--cornflower);
   background: white;
 }
@@ -266,7 +277,7 @@ body {
 .filters.list {
   display: flex;
   justify-content: center;
-  padding: 96px 24px 72px 24px;
+  padding-bottom: 72px;
 }
 
 .button.filter {
@@ -314,7 +325,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 120px;
 }
 
 .project-card {
