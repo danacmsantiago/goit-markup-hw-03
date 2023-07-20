@@ -246,7 +246,6 @@ body {
 
 .team {
   margin-top: 30px;
-  margin-left: 30px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -273,13 +272,14 @@ body {
 .team .position {
   line-height: 1.19;
   text-align: center;
-  padding-top: 30px;
 }
 
 .team .name {
   font-size: 20px;
   font-weight: 500;
   color: var(--navyblue);
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team .position {
